@@ -21,9 +21,10 @@ Example: http://localhost:8888/Codeigniter-4-HMVC/public/welcome
                 -Routes.php (to set routes for this module)
                 
 # Changes to apply HMVC in existing CI 4 Project
+(Don't make these changes in this repository code, it already have these changes)
 1. Add Modules folder under App (App/Modules) and put MVC in it. For reference copy from App/Modules
 2. Copy below code in App/Config/Routes.php
-
+```php
 /**
  * --------------------------------------------------------------------
  * HMVC Routing
@@ -38,7 +39,10 @@ foreach(glob(APPPATH . 'Modules/*', GLOB_ONLYDIR) as $item_dir)
     }    
 }
 
+```
 3. Set Routes in App/Modules/Welcome/Config/Routes.php
 
-# For Custom Development Get in touch with us contact [at] ibrinfotech.com
-                
+
+# For Custom Development Get in touch
+contact [at] ibrinfotech.com
+##### [www.ibrinfotech.com](https://www.ibrinfotech.com?ref=ci4-hmvc-github)
